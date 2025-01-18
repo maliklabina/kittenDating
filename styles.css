@@ -1,0 +1,140 @@
+/*
+.container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ 
+ width: 5px; 
+ height: auto; 
+
+}
+*/
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #000;
+}
+
+.form-container{
+    
+    display: flex;
+   flex-direction: column;
+  /* justify-content: center;*/
+    background-color: #d4c9c9;
+    padding: 8px 12px; 
+    box-sizing: border-box;
+    border-right: 2px;
+    box-shadow: 0 0 10px rgba(233, 220, 220, 0)
+    
+}
+
+
+.form{
+    display: flex;
+    flex-wrap: wrap;        /* Allows items to wrap to the next line */
+    justify-content: space-between;  /* Spacing between form fields */
+    gap: 10px;  
+}
+
+
+
+label {
+    flex: 1 1 150px;        /* This makes labels take equal space */
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.logo2 {
+    max-height: fit-content;
+    width: 100%;  /* Full width of the viewport */
+    height: 100%; /* Full height of the viewport */
+    object-fit: cover; 
+
+}
+
+
+.front{
+    /*
+    position: absolute;
+     top: 100vh;
+    bottom: 0%;   
+    left: 10%;   
+    color: white;  
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 1.2rem;
+    width: 80%;
+    */
+
+    position: absolute;
+    top: 100vh; /* Starts the container just below the image */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: rgb(14, 4, 4); /* Text color */
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+
+.scroll-down-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #392d5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.text-container2{
+    position: relative;
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-size: 1.1rem;
+    height: 80px;
+}
+
+
+.text-container1{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+    }
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: blanchedalmond;
+  
+ 
+}
